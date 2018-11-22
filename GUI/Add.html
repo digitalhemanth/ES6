@@ -1,0 +1,22 @@
+<html>
+    <title>Addition</title>
+    <head>
+        <script>
+            function Add(){
+                var a,b,c;
+                a=Number(document.getElementById("first").value); 
+                b=Number(document.getElementById("second").value);
+                c= a + b;
+                document.getElementById("sum").value= c;
+            }
+        </script>
+    </head>
+    <body>
+            <h2>Enter the Input values : </h2>
+            Enter a value : <input  id="first"> <br>
+            Enter b value : <input  id="second"> <br>
+            <button onclick="Add()"> Add </button> <br>
+            <input id="sum">
+    </body>
+</html>
+

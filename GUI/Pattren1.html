@@ -1,0 +1,61 @@
+<html>
+<title> Pattren program </title>
+<header> 
+    
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <script type="text/javascript">
+
+      function print(){ 
+       
+var num, i, j;
+  
+  num =Number(document.getElementById("first").value);
+  
+      //outer loop
+  for(i=1; i <= num; i++)
+   {
+   //inner loop
+    for(j=1; j<=i; j++)
+   {
+     document.write('*');
+    }
+     document.write('<br/>');
+   }
+  }
+
+</script>
+</header>
+
+<body>
+ <div class="container">
+ <div class="panel">
+ <h1> Pattren program : </h1>
+ </div>
+ </div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+             <div class="form-group">
+            <label for id="num"> Enter The vale : </label>
+            <input id="num" >
+                    </div>
+            <button class="btn btn-success" onclick="print()"> Print </button>
+        </div>
+    </div>
+</div>
+
+<label for id="show">
+     
+</label>
+ </body>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+</html>
